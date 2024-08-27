@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://llf5vg805j3x"]
+[gd_scene load_steps=3 format=3 uid="uid://bjuctuhcpdexg"]
 
-[ext_resource type="Texture2D" uid="uid://bt1ebjsa04kqh" path="res://icon.svg" id="1_ni0g4"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="1_guh6m"]
 
-[node name="Node2D" type="Sprite2D"]
-position = Vector2(548, 256)
-texture = ExtResource("1_ni0g4")
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5fxai"]
+load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(576, 240)
+texture = SubResource("CompressedTexture2D_5fxai")
+script = ExtResource("1_guh6m")
