@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c2c55vfvvebba"]
+[gd_scene load_steps=3 format=3 uid="uid://bjuctuhcpdexg"]
 
-[ext_resource type="Script" path="res://sprite_2d.gd" id="1_l10om"]
+[ext_resource type="Script" path="res://sprite_2d.gd" id="1_guh6m"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5fxai"]
 load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
@@ -8,4 +8,4 @@ load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.cte
 [node name="Sprite2D" type="Sprite2D"]
 position = Vector2(576, 240)
 texture = SubResource("CompressedTexture2D_5fxai")
-script = ExtResource("1_l10om")
+script = ExtResource("1_guh6m")
