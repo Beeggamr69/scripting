@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://dy1l5o0hw507v"]
+
+[ext_resource type="PackedScene" uid="uid://tkpic5pxe4r1" path="res://Un-scuffed script/collectable.tscn" id="1_0u587"]
+[ext_resource type="PackedScene" uid="uid://c2c55vfvvebba" path="res://Un-scuffed script/shmoovement_circle.tscn" id="2_mytv8"]
+
+[node name="World" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_mytv8")]
+position = Vector2(359, 122)
+
+[node name="collectable" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(789, 312)
+
+[node name="collectable2" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(427, 402)
+
+[node name="collectable3" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(186, 406)
+
+[node name="collectable4" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(378, 579)
+
+[node name="collectable5" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(1017, 557)
+
+[node name="collectable6" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(981, 160)
+
+[node name="collectable7" parent="." instance=ExtResource("1_0u587")]
+position = Vector2(800, 565)
