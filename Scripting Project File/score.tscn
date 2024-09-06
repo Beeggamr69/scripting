@@ -1,0 +1,69 @@
+[gd_scene load_steps=4 format=3 uid="uid://wysaqq1fn0rj"]
+
+[ext_resource type="Script" path="res://Un-scuffed script/world.gd" id="1_ounxx"]
+[ext_resource type="PackedScene" uid="uid://c2c55vfvvebba" path="res://Un-scuffed script/shmoovement_circle.tscn" id="2_310dx"]
+[ext_resource type="PackedScene" uid="uid://tkpic5pxe4r1" path="res://Un-scuffed script/collectable.tscn" id="3_htbk3"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_ounxx")
+
+[node name="Player" parent="." instance=ExtResource("2_310dx")]
+position = Vector2(75, 78)
+
+[node name="collectable" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(393, 80)
+
+[node name="collectable2" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(76, 366)
+
+[node name="collectable3" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(75, 222)
+
+[node name="collectable4" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(76, 507)
+
+[node name="collectable5" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(534, 524)
+
+[node name="collectable6" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(534, 233)
+
+[node name="collectable7" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(380, 521)
+
+[node name="collectable8" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(225, 521)
+
+[node name="collectable9" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(393, 234)
+
+[node name="collectable10" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(682, 525)
+
+[node name="collectable11" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(667, 233)
+
+[node name="collectable12" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(833, 525)
+
+[node name="collectable13" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(983, 527)
+
+[node name="collectable14" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(989, 369)
+
+[node name="collectable15" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(987, 229)
+
+[node name="collectable16" parent="." instance=ExtResource("3_htbk3")]
+position = Vector2(985, 79)
+
+[node name="Button" type="Button" parent="."]
+process_mode = 3
+offset_left = 1062.0
+offset_top = 40.0
+offset_right = 1126.0
+offset_bottom = 106.0
+text = "stop"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
